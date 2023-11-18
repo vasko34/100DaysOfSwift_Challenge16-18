@@ -9,24 +9,32 @@
 /* Begin PBXBuildFile section */
 		CE37FD3C2AF810300006C674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37FD3B2AF810300006C674 /* AppDelegate.swift */; };
 		CE37FD3E2AF810300006C674 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE37FD3D2AF810300006C674 /* GameScene.sks */; };
-		CE37FD402AF810300006C674 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE37FD3F2AF810300006C674 /* Actions.sks */; };
 		CE37FD422AF810300006C674 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37FD412AF810300006C674 /* GameScene.swift */; };
 		CE37FD442AF810300006C674 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37FD432AF810300006C674 /* GameViewController.swift */; };
 		CE37FD472AF810300006C674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE37FD452AF810300006C674 /* Main.storyboard */; };
 		CE37FD492AF810320006C674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE37FD482AF810320006C674 /* Assets.xcassets */; };
 		CE37FD4C2AF810320006C674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE37FD4A2AF810320006C674 /* LaunchScreen.storyboard */; };
+		CE8090162AF8425C00BF08BB /* targetGood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE8090122AF8425B00BF08BB /* targetGood.mp3 */; };
+		CE8090172AF8425C00BF08BB /* reload.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE8090132AF8425B00BF08BB /* reload.mp3 */; };
+		CE8090182AF8425C00BF08BB /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE8090142AF8425B00BF08BB /* shoot.mp3 */; };
+		CE8090192AF8425C00BF08BB /* targetBad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE8090152AF8425C00BF08BB /* targetBad.mp3 */; };
+		CE80901B2AF8440500BF08BB /* gameOverSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE80901A2AF8440500BF08BB /* gameOverSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE37FD382AF810300006C674 /* Challenge16-18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge16-18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE37FD3B2AF810300006C674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE37FD3D2AF810300006C674 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CE37FD3F2AF810300006C674 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CE37FD412AF810300006C674 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CE37FD432AF810300006C674 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CE37FD462AF810300006C674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE37FD482AF810320006C674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE37FD4B2AF810320006C674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8090122AF8425B00BF08BB /* targetGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = targetGood.mp3; sourceTree = "<group>"; };
+		CE8090132AF8425B00BF08BB /* reload.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reload.mp3; sourceTree = "<group>"; };
+		CE8090142AF8425B00BF08BB /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
+		CE8090152AF8425C00BF08BB /* targetBad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = targetBad.mp3; sourceTree = "<group>"; };
+		CE80901A2AF8440500BF08BB /* gameOverSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +69,16 @@
 			children = (
 				CE37FD3B2AF810300006C674 /* AppDelegate.swift */,
 				CE37FD3D2AF810300006C674 /* GameScene.sks */,
-				CE37FD3F2AF810300006C674 /* Actions.sks */,
 				CE37FD412AF810300006C674 /* GameScene.swift */,
 				CE37FD432AF810300006C674 /* GameViewController.swift */,
 				CE37FD452AF810300006C674 /* Main.storyboard */,
 				CE37FD482AF810320006C674 /* Assets.xcassets */,
 				CE37FD4A2AF810320006C674 /* LaunchScreen.storyboard */,
+				CE8090132AF8425B00BF08BB /* reload.mp3 */,
+				CE8090142AF8425B00BF08BB /* shoot.mp3 */,
+				CE8090152AF8425C00BF08BB /* targetBad.mp3 */,
+				CE8090122AF8425B00BF08BB /* targetGood.mp3 */,
+				CE80901A2AF8440500BF08BB /* gameOverSound.mp3 */,
 			);
 			path = "Challenge16-18";
 			sourceTree = "<group>";
@@ -130,10 +142,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE37FD472AF810300006C674 /* Main.storyboard in Resources */,
+				CE8090192AF8425C00BF08BB /* targetBad.mp3 in Resources */,
+				CE8090182AF8425C00BF08BB /* shoot.mp3 in Resources */,
+				CE8090172AF8425C00BF08BB /* reload.mp3 in Resources */,
 				CE37FD3E2AF810300006C674 /* GameScene.sks in Resources */,
 				CE37FD492AF810320006C674 /* Assets.xcassets in Resources */,
+				CE80901B2AF8440500BF08BB /* gameOverSound.mp3 in Resources */,
 				CE37FD4C2AF810320006C674 /* LaunchScreen.storyboard in Resources */,
-				CE37FD402AF810300006C674 /* Actions.sks in Resources */,
+				CE8090162AF8425C00BF08BB /* targetGood.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +320,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,9 +329,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge16-18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -332,8 +351,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,9 +360,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge16-18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
